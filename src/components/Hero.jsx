@@ -12,10 +12,10 @@ const Hero = () => {
           </div>
          
           <div className='space-x-12 flex mt-14'>
-              <BsTwitter className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' />
-              <ImLinkedin2 className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' />
-              <FaGithub className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' />
-              <FaDev className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' />
+              <a href='https://twitter.com/Enzyme_01'><BsTwitter className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
+              <a href='https://www.linkedin.com/in/ayomide-talabi-973981174/'> <ImLinkedin2 className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
+              <a href='https://github.com/Enzyme-developer'><FaGithub className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
+              <a href='https://dev.to/ayo_dev'><FaDev className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
           </div>
     </div>
   )
