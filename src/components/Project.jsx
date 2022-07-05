@@ -14,7 +14,7 @@ const Project = ({ title , description, link, src, github, stack }) => {
               <p className='text-gray-300 text-xl py-6'>{stack}</p>
               <div className='flex gap-12 py-6'>
                   <a className='text-gray-300 text-xl flex hover:text-blue-400' href={link}>Live <BiLinkAlt className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
-                  <a className='textgray-300 text-xl flex hover:text-blue-400' href={github}>Github <FaGithub className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
+                  <a className='text-gray-300 text-xl flex hover:text-blue-400' href={github}>Github <FaGithub className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
               </div>
           </div>
         </div>
