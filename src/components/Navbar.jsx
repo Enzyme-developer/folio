@@ -13,7 +13,7 @@ const Navbar = () => {
     
   return (
       <div>
-        <div className={nav ? 'z-100 text-white bg-black h-[8vh] flex w-full items-center shadow-xl justify-between px-4 py-8'
+        <div className={nav ? 'fixed z-100 top-0 text-white bg-black h-[8vh] flex w-full items-center shadow-xl justify-between px-4 py-8'
       :  'z-1 h-[8vh] flex w-full text-white bg-black items-center shadow-xl justify-between px-4 py-8' }>
       <div>
         <h1 className='text-xl uppercase font-bold'>Ayo-dev</h1>
@@ -26,26 +26,26 @@ const Navbar = () => {
          }
      >
             
-        <ul className='flex flex-col h-[100%] font-bold space-y-24 justify-center'>
+        <ul className='flex flex-col h-[100%] font-bold  space-y-24 justify-center'>
 
        
-          <li onClick={handleNav} className='text-gray-400 text-xl hover:text-blue-400 '>
-            <a href='' >Home</a>
+          <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400 '>
+            <a href='#hero' >Home</a>
           </li>
           
                       
-          <li onClick={handleNav} className='text-gray-400 text-xl hover:text-blue-400'>
-            <a href='' >About</a>
+          <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
+            <a href='#about' >About</a>
           </li>  
                     
 
-          <li onClick={handleNav} className='text-gray-400 text-xl hover:text-blue-400'>
-            <a href='' >Projects</a>
+          <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
+            <a href='#project' >Projects</a>
           </li>
           
 
-          <li onClick={handleNav} className='text-gray-400 text-xl hover:text-blue-400'>
-            <a href='' >Contact</a>
+          <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
+            <a href='#' >Contact</a>
           </li>
           
         </ul>
@@ -62,12 +62,12 @@ const Navbar = () => {
 
                         
             <li onClick={handleNav} className='text-gray-400 hover:text-blue-400'>
-                <a href='' >About</a>
+                <a href='#about' >About</a>
             </li>  
                     
 
             <li onClick={handleNav} className='text-gray-400 hover:text-blue-400'>
-                <a href='' >Projects</a>
+                <a href='#project' >Projects</a>
             </li>
 
 
