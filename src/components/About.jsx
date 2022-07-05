@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='mt-16'>
-        <p className='text-gray-500 text-2xl p-4'>
-          I'm a passionate Frontend/UI Engineer proficient in various frontend technologies. I am focused on creating 
+    <div className='mt-16 p-4 w-full flex-col lg:flex-row lg:flex-row-reverse flex items-center justify-center lg:justify-between lg:gap-16'>
+        <p className='text-gray-400 text-2xl lg:w-[70vw]'>
+          I'm a <span className='text-gray-100'>passionate Frontend Engineer</span>  proficient in various frontend technologies. I am focused on creating 
           <span className='text-gray-100'>seamless experiences and interactions</span> on the web 
           by tranforming designs and ideas, <span className='text-gray-100'>pixel perfectly</span>, to code.
           I translate needs into functional and appealing interactive applications.
@@ -18,7 +18,8 @@ const About = () => {
           When I'm not <span className='text-gray-100'>striking a balance</span> between functionality and aesthetic design or writing technical articles, 
           you can find me catching up on my favorite movies.
         </p>
-        
+
+        <img src='https://ayoo-dev.netlify.app/avatar.jpg' alt='avatar' className='rounded-lg w-full md:w-[400px] lg:mt-0 mt-10'/>
     </div>
   )
 }
