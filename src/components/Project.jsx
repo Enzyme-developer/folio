@@ -12,7 +12,7 @@ const Project = ({ title , description, link, src, github, stack }) => {
               <img src={src} alt='project' className='w-full min-h-[230px] max-h-[230px] py-4 rounded-lg' />
               <p className='text-gray-300 text-xl py-6'>{description}</p>
               <p className='text-gray-300 text-xl py-6'>{stack}</p>
-              <div className='flex gap-12 py-6'>
+              <div className='flex space-x-6 py-6'>
                   <a className='text-gray-300 text-xl flex hover:text-blue-400' href={link}>Live <BiLinkAlt className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
                   <a className='text-gray-300 text-xl flex hover:text-blue-400' href={github}>Github <FaGithub className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
               </div>
