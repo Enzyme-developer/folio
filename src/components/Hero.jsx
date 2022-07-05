@@ -8,7 +8,7 @@ const Hero = () => {
   return (
       <div className='p-4 w-[100vw] mt-10 overflow-hidden'>
           <div>
-              <h1 className='text-8xl md:text-6xl overflow-hidden text-white'>I'm Talabi Ayomide — Frontend Engineer, Blockchain developer & Technical writer.</h1>
+              <h1 className='md:text-8xl text-6xl overflow-hidden text-white'>I'm Talabi Ayomide — Frontend Engineer, Blockchain developer & Technical writer.</h1>
           </div>
          
           <div className='space-x-12 flex mt-14'>
