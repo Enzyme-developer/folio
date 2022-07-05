@@ -74,7 +74,12 @@ const Skills = () => {
 
 
         <div className='flex flex-col justify-center gap-y-6'>
-        <img src="https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png" width="36" height="36" alt="Firebase" />
+        <img src="https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png" width="36" height="36" alt="git" />
+        <p className='text-gray-100 uppercase'>Git</p>
+        </div>
+
+        <div className='flex flex-col justify-center gap-y-6'>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsASCy83izYeNHlYSp4stqfcCz4g1wg78KbAA_hrnOb72sKQMn0B5eLctnwybLDBphNc&usqp=CAU" width="36" height="36" alt='github' />
         <p className='text-gray-100 uppercase'>Git</p>
         </div>
 
