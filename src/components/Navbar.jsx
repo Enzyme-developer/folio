@@ -42,6 +42,10 @@ const Navbar = () => {
           <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
             <a href='#project' >Projects</a>
           </li>
+
+          <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
+            <a href='#articles' >Articles</a>
+          </li>
           
 
           <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
@@ -68,6 +72,10 @@ const Navbar = () => {
 
             <li onClick={handleNav} className='text-gray-400 hover:text-blue-400'>
                 <a href='#project' >Projects</a>
+            </li>
+
+            <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
+              <a href='#articles' >Articles</a>
             </li>
 
 
