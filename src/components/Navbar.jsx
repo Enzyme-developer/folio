@@ -13,7 +13,7 @@ const Navbar = () => {
     
   return (
       <div>
-        <div className={nav ? 'z-100 fixed text-white bg-black h-[8vh] flex w-full items-center shadow-xl justify-between px-4 py-8'
+        <div className={nav ? 'z-100 text-white bg-black h-[8vh] flex w-full items-center shadow-xl justify-between px-4 py-8'
       :  'z-1 h-[8vh] flex w-full text-white bg-black items-center shadow-xl justify-between px-4 py-8' }>
       <div>
         <h1 className='text-xl uppercase font-bold'>Ayo-dev</h1>
@@ -21,8 +21,8 @@ const Navbar = () => {
 
       <div className={
            nav
-             ? 'md:hidden  fixed left-0 top-[8vh] flex flex-col items-center text-center w-full h-[100%] px-4 ease-in opacity-1 duration-300 z-100 '
-             : 'md:hidden absolute left-[-100%] top-[8vh] flex flex-col w-full  h-[100%] opacity-0 px-4 ease-in duration-300 z-10'
+             ? 'md:hidden fixed left-0 top-[8vh] bg-black flex flex-col items-center text-center w-full h-[100%] px-4 ease-in opacity-1 duration-300 z-100 '
+             : 'md:hidden fixed left-[-100%] bg-black top-[8vh] flex flex-col w-full  h-[100%] opacity-0 px-4 ease-in duration-300 z-10'
          }
      >
             
