@@ -6,7 +6,7 @@ import { FaDev } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-      <div className='p-4 mt-10'>
+      <div className='p-4 mt-10 overflow-hidden'>
           <div>
               <h1 className='text-8xl text-white'>I'm Talabi Ayomide — Frontend Engineer, Blockchain developer & Technical writer.</h1>
           </div>
