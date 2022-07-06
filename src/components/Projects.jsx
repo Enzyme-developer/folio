@@ -4,7 +4,7 @@ import Project from './Project'
 const Projects = () => {
   return (
 
-    <div className='px-4 mt-14'>
+    <div className='px-4 mt-16'>
     <h1 className='text-white text-4xl mb-6 border-solid border-gray-200 border-b-4'>Selected Projects</h1>
     <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mx-auto'>
         
