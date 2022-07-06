@@ -2,13 +2,12 @@ import React from 'react'
 
 const Skills = () => {
     return (
-<<<<<<< HEAD
     <div className='p-4 w-full my-16'>
         <h1 className='mt-12 text-white text-4xl uppercase my-8'>Technical Skills</h1>
-=======
+
     <div className='p-4 w-full my-8'>
         <h1 className='mt-12 text-white text-4xl my-8'>My Tech Stack</h1>
->>>>>>> 65c2ffecbe1a44163458d15d04351e52ea43058f
+
         <div className= 'grid grid-cols-3 md:grid-cols-6 w-full gap-8'>
 
         <div className='flex flex-col justify-center space-y-6'>
@@ -122,6 +121,7 @@ const Skills = () => {
         <p className='text-gray-100 uppercase'>Gsap</p>
         </div>
 
+      </div>
     </div>
     </div>
        
