@@ -5,7 +5,7 @@ const Projects = () => {
   return (
 
     <div id='projects' className='px-4 mt-16'>
-    <h1 className='text-white text-6xl mb-6'>Selected Projects</h1>
+    <h1 className='text-white text-4xl mb-6'>Selected Projects</h1>
     <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mx-auto'>
         
         <Project title='Moovie'

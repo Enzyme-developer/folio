@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import { a } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
@@ -14,7 +13,7 @@ const Navbar = () => {
   return (
       <div>
         <div className={nav ? 'fixed z-100 top-0 text-white bg-black h-[8vh] flex w-full items-center shadow-xl justify-between px-4 py-8'
-      :  'z-1 h-[8vh] flex w-full text-white bg-black items-center shadow-xl justify-between px-4 py-8' }>
+      :  'z-1 h-[8vh] flex w-full top-0 fixed text-white bg-black items-center shadow-xl justify-between px-4 py-8' }>
       <div>
         <h1 className='text-xl uppercase font-bold'>Ayo-dev</h1>
       </div>
@@ -49,7 +48,7 @@ const Navbar = () => {
           
 
           <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400'>
-            <a href='#' >Contact</a>
+            <a href='#contact' >Contact</a>
           </li>
           
         </ul>
@@ -80,7 +79,7 @@ const Navbar = () => {
 
 
             <li onClick={handleNav} className='text-gray-400 hover:text-blue-400'>
-                <a href='' >Contact</a>
+                <a href='#contact' >Contact</a>
             </li>
 
             </ul>
