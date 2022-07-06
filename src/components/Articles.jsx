@@ -17,8 +17,8 @@ const Articles = () => {
 
   
   return (
-      <div className='p-4 mt-16'>
-        <h1 className='text-white text-4xl mb-8'>Selected Articles</h1>
+      <div id='articles' className='p-4 mt-16'>
+        <h1 className='text-white text-6xl mb-8'>Selected Articles</h1>
         <Article articles={articles} />
     </div>
   )
