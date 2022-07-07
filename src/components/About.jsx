@@ -24,7 +24,7 @@ const About = () => {
     </div>
       
       <div>
-        <img src='https://ayoo-dev.netlify.app/avatar.jpg' alt='avatar' className='rounded-lg w-full md:w-[400px] my-16 '/>
+        <img src='https://ayoo-dev.netlify.app/avatar.jpg' alt='avatar' className='rounded-lg w-full md:w-[500px] my-16 '/>
       </div>
       
     </div>
