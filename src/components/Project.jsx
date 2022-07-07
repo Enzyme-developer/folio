@@ -1,10 +1,62 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react';
 import { FaGithub } from 'react-icons/fa'
 import { BiLinkAlt } from 'react-icons/bi'
+import { gsap } from "gsap";
+
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
 
 const Project = ({ title , description, link, src, github, stack }) => {
+
+
+  const headerRef = useRef(null);
+
+  const revealRefs = useRef([]);
+  revealRefs.current = [];
+
+  useEffect(() => {
+    
+    gsap.from(headerRef.current, {
+      autoAlpha: 0, 
+      ease: 'none',
+      delay: 1
+    });
+
+    revealRefs.current.forEach((el, index) => {
+        
+      gsap.fromTo(el,{
+        autoAlpha: 0,
+        opacity: 0,
+        y: 20,
+      }, {
+        duration: 1.5, 
+        autoAlpha: 1,
+        opacity: 1,
+        y: 0,
+        ease: 'none',
+        scrollTrigger: {
+          id: `section-${index+1}`,
+          trigger: el, 
+          start: 'top center+=300',
+          toggleActions: 'play none none reverse'
+        }
+      });
+
+    });
+
+  }, []);
+
+  const addToRefs = el => {
+    if (el && !revealRefs.current.includes(el)) {
+        revealRefs.current.push(el);
+    }
+  };
+
+
+
     return (
-      <div className='flex flex-col min-h-[600px] py-4'>
+      <div className='flex flex-col min-h-[600px] py-4' ref={addToRefs}>
         <h1 className='text-white text-3xl font-bold text-left py-4'>{title}</h1>
 
         <div>

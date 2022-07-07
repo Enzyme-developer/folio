@@ -1,13 +1,63 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react';
 import { BsTwitter } from 'react-icons/bs'
 import { ImLinkedin2 } from 'react-icons/im'
 import { FaGithub } from 'react-icons/fa'
 import { FaDev } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
+import { gsap } from "gsap";
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
 
 const Hero = () => {
+
+
+  const headerRef = useRef(null);
+
+  const revealRefs = useRef([]);
+  revealRefs.current = [];
+
+  useEffect(() => {
+    
+    gsap.from(headerRef.current, {
+      autoAlpha: 0, 
+      ease: 'none',
+      delay: 1
+    });
+
+    revealRefs.current.forEach((el, index) => {
+        
+      gsap.fromTo(el,{
+        autoAlpha: 0,
+        opacity: 0,
+        y: -30,
+      }, {
+        duration: 1, 
+        autoAlpha: 1,
+        opacity: 1,
+        y: 0,
+        ease: 'none',
+        scrollTrigger: {
+          id: `section-${index+1}`,
+          trigger: el, 
+          start: 'top center+=300',
+          toggleActions: 'play none none reverse'
+        }
+      });
+
+    });
+
+  }, []);
+
+  const addToRefs = el => {
+    if (el && !revealRefs.current.includes(el)) {
+        revealRefs.current.push(el);
+    }
+  };
+
+
   return (
-      <div id='hero' className='p-4 w-[100vw] mt-20 overflow-hidden'>
+      <div id='hero' ref={addToRefs} className='p-4 w-[100vw] mt-20 overflow-hidden'>
           <div>
               <h1 className='md:text-8xl text-6xl overflow-hidden text-white'>Talabi Ayomide — Frontend Engineer, Blockchain developer & Technical writer.</h1>
           </div>

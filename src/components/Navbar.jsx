@@ -12,8 +12,8 @@ const Navbar = () => {
     
   return (
       <div>
-        <div className={nav ? 'md:relative fixed z-100 top-0 text-white bg-black h-[8vh] flex w-full items-center shadow-xl justify-between px-4 py-8'
-      :  'z-1 h-[8vh] flex w-full top-0 fixed text-white bg-black items-center shadow-xl justify-between px-4 py-8' }>
+        <div className={nav ? 'fixed z-100 top-0 text-white bg-black h-[8vh] flex w-full items-center shadow-xl justify-between px-4 py-8'
+      :  'z-100 h-[8vh] flex w-full top-0 fixed text-white bg-green-400 items-center shadow-xl justify-between px-4 py-8' }>
       <div>
         <h1 className='text-xl uppercase font-bold'>Ayo-dev</h1>
       </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
          }
      >
             
-        <ul className='flex flex-col h-[100%] font-bold  space-y-24 justify-center'>
+        <ul className='flex flex-col h-[100%] font-bold bg-black space-y-24 justify-center'>
 
        
           <li onClick={handleNav} className='text-gray-400 text-2xl hover:text-blue-400 '>
