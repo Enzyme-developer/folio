@@ -10,7 +10,7 @@ const Contact = () => {
   return (
       <div id='contact' className='my-16 p-4'>
         <h1 className='text-white text-6xl mb-6'>Contact Me</h1>
-          <img style={{ borderRadius: '100%', height: 'auto' }} src={Ayo} width="100" alt='Ayo' />
+          <img style={{ borderRadius: '100%', height: 'auto' }} src={Ayo} width="90" alt='Ayo' />
           
         <p className='text-xl text-gray-200 gap-y-8  p-2'>Have a project that requires my skillset? Hit me up via any button below.</p>
           <div className='space-x-12 flex mt-14'>
