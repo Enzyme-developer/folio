@@ -12,7 +12,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="bg-black min-h-screen overflow-hidden">
-      <Navbar />
       <Hero />
       <About />
       <Skills />
@@ -20,6 +19,7 @@ function App() {
       <Articles />
       <Contact />
       <Footer />
+      <Navbar />
     </div>
   );
 }

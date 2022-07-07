@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { BsTwitter } from 'react-icons/bs'
 import { ImLinkedin2 } from 'react-icons/im'
 import { FaGithub } from 'react-icons/fa'
@@ -30,9 +30,9 @@ const Contact = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        x: -20,
+        x: -80,
       }, {
-        duration: 1, 
+        duration: 0.5, 
         autoAlpha: 1,
         opacity: 1,
         x: 0,

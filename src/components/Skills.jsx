@@ -26,9 +26,9 @@ const Skills = () => {
         autoAlpha: 0,
         opacity: 0,
         scale: 0.9,
-        y: -30,
+        y: -80,
       }, {
-        duration: 1.5, 
+        duration: 0.5, 
         autoAlpha: 1,
         opacity: 1,
         scale:1,

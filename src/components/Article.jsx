@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { BiLinkAlt } from 'react-icons/bi';
@@ -25,9 +25,9 @@ const Article = ( {articles} ) => {
         gsap.fromTo(el,{
           autoAlpha: 0,
           opacity: 0,
-          x: 30,
+          x: 80,
         }, {
-          duration: 1, 
+          duration: 0.5, 
           autoAlpha: 1,
           opacity: 1,
           x: 0,

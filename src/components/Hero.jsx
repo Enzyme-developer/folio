@@ -30,9 +30,9 @@ const Hero = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        y: -30,
+        y: -80,
       }, {
-        duration: 1, 
+        duration: 0.5, 
         autoAlpha: 1,
         opacity: 1,
         y: 0,
@@ -57,7 +57,7 @@ const Hero = () => {
 
 
   return (
-      <div id='hero' ref={addToRefs} className='p-4 w-[100vw] mt-20 overflow-hidden'>
+      <div id='hero' ref={addToRefs} className='z-1 p-4 w-[100vw] mt-20 overflow-hidden'>
           <div>
               <h1 className='md:text-8xl text-6xl overflow-hidden text-white'>Talabi Ayomide — Frontend Engineer, Blockchain developer & Technical writer.</h1>
           </div>

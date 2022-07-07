@@ -32,9 +32,9 @@ const About = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        y: 20,
+        y: 80,
       }, {
-        duration: 1.5, 
+        duration: 0.5, 
         autoAlpha: 1,
         opacity: 1,
         y: 0,
