@@ -13,7 +13,7 @@ const Projects = () => {
               src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpKTh2Z8M7FqHhutA5cIcbKJMHgCDePeu5KA&usqp=CAU' 
               stack='Built with Next.js, NextAuth, Tailwind Css'
          link='https://moovie-green.vercel.app' 
-         gihub='https://github.com/Enzyme-developer/moovie' 
+         github='https://github.com/Enzyme-developer/moovie' 
         />
 
         <Project title='Cryptoverse'
@@ -21,7 +21,7 @@ const Projects = () => {
               src='https://i.pinimg.com/originals/2b/f2/04/2bf204e3797e17128a1264b2b372aea3.jpg' 
               stack='Built with React.js , Typescript, Firebase, Tailwind Css'
          link='https://cryptoverse-app-ayo-dev.vercel.app' 
-         gihub='https://github.com/Enzyme-developer/cryptoverse' 
+         github='https://github.com/Enzyme-developer/cryptoverse' 
         />
        
        <Project title='Realtor'
@@ -37,7 +37,7 @@ const Projects = () => {
               src='https://opengeekslab.com/wp-content/uploads/2020/01/Key-Issues-to-Consider-While-Functional-Fitness-App-Development.png' 
               stack='Built with React.js & Material UI'
          link='https://fitness-ashen.vercel.app' 
-         gihub='https://github.com/Enzyme-developer/fitness' 
+         github='https://github.com/Enzyme-developer/fitness' 
         />
 
         <Project title='Finder'

@@ -30,7 +30,7 @@ const Project = ({ title , description, link, src, github, stack }) => {
         opacity: 0,
         y: 80,
       }, {
-        duration: 0.5, 
+        duration: 0.8, 
         autoAlpha: 1,
         opacity: 1,
         y: 0,

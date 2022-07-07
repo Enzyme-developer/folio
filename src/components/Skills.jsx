@@ -28,7 +28,7 @@ const Skills = () => {
         scale: 0.8,
         y: -80,
       }, {
-        duration: 0.5, 
+        duration: 0.8, 
         autoAlpha: 1,
         opacity: 1,
         scale:1,
@@ -55,7 +55,7 @@ const Skills = () => {
 
     return (
     <div className='p-4 w-full'  ref={addToRefs}>
-        <h1 className='mt-8 text-white text-4xl mb-8'>Technical skills</h1>
+        <h1 className='mt-4 text-white text-4xl mb-8'>Technical skills</h1>
 
         <div className= 'grid grid-cols-3 md:grid-cols-6 w-full gap-8'>
 

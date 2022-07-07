@@ -1,15 +1,8 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { gsap } from "gsap";
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
-
-
-
-
-
-  
-
 
 
 const About = () => {
@@ -34,7 +27,7 @@ const About = () => {
         opacity: 0,
         y: 80,
       }, {
-        duration: 0.5, 
+        duration: 0.8, 
         autoAlpha: 1,
         opacity: 1,
         y: 0,
@@ -78,11 +71,11 @@ const About = () => {
           When I'm not <span className='text-gray-100'>striking a balance</span> between functionality and aesthetic design or writing technical articles, 
           you can find me catching up on my favorite movies.
       </p>
-       <p ref={addToRefs} className='mt-10 rounded-lg'><a className='bg-blue-500 text-white p-4 mt-10 rounded textxll font-bold' href='https://docs.google.com/document/d/11WARLeIufnd2PR_70pSIxPQ_2haXuU2MY6XEUBKApDQ/'>My Resume</a></p>
+       <p ref={addToRefs} className='mt-10 rounded-lg'><a className='bg-blue-500 text-white p-4 mt-10 rounded text-xl font-bold' href='https://docs.google.com/document/d/11WARLeIufnd2PR_70pSIxPQ_2haXuU2MY6XEUBKApDQ/edit?usp=sharing'>My Resume</a></p>
     </div>
       
       <div ref={addToRefs}>
-        <img src='https://ayoo-dev.netlify.app/avatar.jpg' alt='avatar' className='rounded-lg w-full md:w-[500px] my-16 '/>
+        <img src='https://ayoo-dev.netlify.app/avatar.jpg' alt='avatar' className=' rounded-lg w-full md:w-[500px] my-16 '/>
       </div>
       
     </div>
