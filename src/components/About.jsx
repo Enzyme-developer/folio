@@ -72,6 +72,7 @@ const About = () => {
           you can find me catching up on my favorite movies.
       </p>
        <p ref={addToRefs} className='mt-10 rounded-lg'><a className='bg-blue-500 text-white p-4 mt-10 rounded text-xl font-bold' href='https://docs.google.com/document/d/11WARLeIufnd2PR_70pSIxPQ_2haXuU2MY6XEUBKApDQ/edit?usp=sharing'>My Resume</a></p>
+       <p ref={addToRefs} className='mt-10 rounded-lg'><a className='bg-blue-500 text-white p-4 mt-10 rounded text-xl font-bold' href='https://www.linkedin.com/in/ayomide-talabi/'>LinkedIn</a></p>
     </div>
       
       <div ref={addToRefs}>
