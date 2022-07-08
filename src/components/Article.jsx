@@ -58,7 +58,7 @@ const Article = ( {articles} ) => {
         {articles.map(( { title, created_at, cover_image, url}) => (
                  
         <div key={title} className='border-gray-100 border-4 rounded-lg' >
-        <img src={cover_image} alt='project' className='w-full min-h-[230px] max-h-[230px] rounded-lg' />
+        <img src={cover_image} alt='project' className='w-full min-h-[230px] max-h-[230px]' />
         <p className='text-gray-300 text-xl px-2 py-6 font-bold'>{title}</p>
         <p className='text-gray-300 text-xl px-2 py-6'>{created_at.slice(0,10)}</p>
         <a className='text-gray-300 px-2 py-6 text-xl flex hover:text-blue-400' href={url}>Read <BiLinkAlt className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
