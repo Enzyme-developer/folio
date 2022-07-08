@@ -27,7 +27,7 @@ const About = () => {
         opacity: 0,
         y: 80,
       }, {
-        duration: 0.8, 
+        duration: 0.6, 
         autoAlpha: 1,
         opacity: 1,
         y: 0,

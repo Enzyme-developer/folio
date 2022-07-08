@@ -24,10 +24,10 @@ const Article = ( {articles} ) => {
         gsap.fromTo(el,{
           autoAlpha: 0,
           opacity: 0,
-            x: 80,
+            x: 100,
           scale:0.8
         }, {
-          duration: 0.8, 
+          duration: 0.6, 
           autoAlpha: 1,
           scale:1,
           opacity: 1,
