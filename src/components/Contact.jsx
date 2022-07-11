@@ -33,6 +33,7 @@ const Contact = () => {
         x: -100,
       }, {
         duration: 0.6, 
+        delay: 1,
         autoAlpha: 1,
         opacity: 1,
         x: 0,
