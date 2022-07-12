@@ -30,12 +30,12 @@ const Hero = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        y: -100,
+        x: -150,
       }, {
         duration: 0.6, 
         autoAlpha: 1,
         opacity: 1,
-        y: 0,
+        x: 0,
         ease: 'none',
         scrollTrigger: {
           id: `section-${index+1}`,
