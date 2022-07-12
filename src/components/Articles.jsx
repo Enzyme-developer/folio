@@ -8,7 +8,7 @@ const Articles = () => {
     const fetchData = async () => {
     const response = await fetch ('https://dev.to/api/articles?username=ayo_dev')
     const data = await response.json()
-    setArticles(data)
+    setArticles(data.slice(0,3))
     console.log(data)
     }
 

@@ -28,7 +28,7 @@ const Project = ({ title , description, link, src, github, stack }) => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        y: 100,
+        y: 150,
       }, {
         duration: 0.6, 
         autoAlpha: 1,

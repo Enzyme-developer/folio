@@ -17,7 +17,7 @@ const Skills = () => {
     gsap.from(headerRef.current, {
       autoAlpha: 0, 
       ease: 'none',
-      delay: 1
+      delay: 1.5
     });
 
     revealRefs.current.forEach((el, index) => {
@@ -26,7 +26,7 @@ const Skills = () => {
         autoAlpha: 0,
         opacity: 0,
         scale: 0.7,
-        y: -80,
+        y: -150,
       }, {
         duration: 0.6, 
         autoAlpha: 1,

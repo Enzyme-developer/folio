@@ -24,7 +24,7 @@ const Article = ( {articles} ) => {
         gsap.fromTo(el,{
           autoAlpha: 0,
           opacity: 0,
-            x: 100,
+            x: 150,
           scale:0.8
         }, {
           duration: 0.6, 
