@@ -23,6 +23,14 @@ const Projects = () => {
          link='https://cryptoverse-app-ayo-dev.vercel.app' 
          github='https://github.com/Enzyme-developer/cryptoverse' 
         />
+
+       <Project title='Sneakie (WIP)'
+         description= 'An ecommerce application for users to view, buy, pay and checkout their orders.'
+          src='https://buildfire.com/wp-content/uploads/2019/12/Ecommerce-mobile-app-scaled-1200x900.png' 
+          stack='Built with Next.js, Sanity, CSS'
+          link='https://sneakie.vercel.app' 
+          github='https://github.com/Enzyme-developer/sneakie'
+        />
        
        <Project title='Realtor'
          description= 'This is a real estate web application that displays properties for sale and rent: their full features,price etc.It also has a search functionality'
@@ -46,14 +54,6 @@ const Projects = () => {
               stack='Built with React.js, React Context, API, Tailwind Css'
          link='http://google-ten-eta.vercel.app' 
          github='https://github.com/Enzyme-developer/google-repo' 
-        />
-
-        <Project title='Shoppe (WIP)'
-         description= 'An ecommerce application for users to view, buy, pay and checkout their orders. This is still a work in progress.'
-              src='https://buildfire.com/wp-content/uploads/2019/12/Ecommerce-mobile-app-scaled-1200x900.png' 
-              stack='Built with React.js, Material UI, Tailwind Css'
-         link='https://shoppe.vercel.app' 
-         github='https://github.com/Enzyme-developer/shoppe'
         />
 
     </div>
