@@ -30,7 +30,7 @@ const Contact = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        x: -300,
+        x: -200,
       }, {
         duration: 0.6, 
         delay: 1,
@@ -69,7 +69,6 @@ const Contact = () => {
             <a className='text-gray-200 gap-y-8 hover:text-blue-400 ' href='https://twitter.com/Enzyme_01'><BsTwitter className='text-gray-400 cursor-pointer w-6 h-6 ' />Twitter</a>
             <a className='text-gray-200 gap-y-8 hover:text-blue-400 ' href='https://www.linkedin.com/in/ayomide-talabi-973981174/'> <ImLinkedin2 className='text-gray-400 cursor-pointer w-6 h-6 ' />LinkedIn</a>
             <a className='text-gray-200 gap-y-8 hover:text-blue-400 ' href='https://github.com/Enzyme-developer'><FaGithub className='text-gray-400 cursor-pointer w-6 h-6 ' />Github</a>
-            <a className='text-gray-200 gap-y-8 hover:text-blue-400 ' href='https://dev.to/ayo_dev'><FaDev className='text-gray-400 cursor-pointer w-6 h-6 ' />Dev.to</a>
         </div>
 
         {/* <a className='bg-blue-500 text-white p-4 decoration-0' href='https://docs.google.com/document/d/11WARLeIufnd2PR_70pSIxPQ_2haXuU2MY6XEUBKApDQ/' >My Resume</a> */}

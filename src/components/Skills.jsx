@@ -25,10 +25,10 @@ const Skills = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        scale: 0.7,
+        scale: 0.6,
         y: -150,
       }, {
-        duration: 0.6, 
+        duration: 0.7, 
         autoAlpha: 1,
         opacity: 1,
         scale:1,
