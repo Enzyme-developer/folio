@@ -22,7 +22,7 @@ const Hero = () => {
     gsap.from(headerRef.current, {
       autoAlpha: 0, 
       ease: 'none',
-      delay: 1.5
+      delay: 1
     });
 
     revealRefs.current.forEach((el, index) => {
@@ -30,7 +30,7 @@ const Hero = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        x: -150,
+        x: -250,
       }, {
         duration: 0.6, 
         autoAlpha: 1,

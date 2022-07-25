@@ -25,9 +25,9 @@ const Projects = () => {
         />
 
        <Project title='Sneakie (WIP)'
-         description= 'An ecommerce application for users to view, buy, pay and checkout their orders.'
+         description= 'An ecommerce application for users to view, buy, pay and checkout their orders, get detailed information about each product. Merrchants can easily update their store using the sanit CMS. It enables users to sign in and sign up.'
           src='https://buildfire.com/wp-content/uploads/2019/12/Ecommerce-mobile-app-scaled-1200x900.png' 
-          stack='Built with Next.js, Sanity, CSS'
+          stack='Built with Next.js, Sanity, Firebase, CSS'
           link='https://sneakie.vercel.app' 
           github='https://github.com/Enzyme-developer/sneakie'
         />
