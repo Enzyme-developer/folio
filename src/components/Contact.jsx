@@ -87,11 +87,11 @@ const Contact = () => {
 
         <div className='flex flex-col w-full'>
           <form className='flex flex-col w-full' action="https://formsubmit.co/talabiayomide2000@gmail.com" method="POST" >
-          <input type="text" placeholder='John Doe' name='name' className='text-white rounded-md bg-gray-900 p-2 mt-8'/>
+          <input type="text" required placeholder='John Doe' name='name' className='text-white rounded-md bg-gray-900 p-2 mt-8'/>
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_subject" value="New submission!" />
-          <input type="text" placeholder='subject' name='title' className='text-white rounded-md bg-gray-900 p-2 mt-8'/>
-          <textarea placeholder='your message' name='message' cols={40} className='text-white rounded-md bg-gray-900 p-2 mt-8' />
+          <input type="text" required placeholder='subject' name='title' className='text-white rounded-md bg-gray-900 p-2 mt-8'/>
+          <textarea placeholder='your message' required name='message' cols={40} className='text-white rounded-md bg-gray-900 p-2 mt-8' />
           <button type='submit' className='border-0 rounded-md bg-blue-500 py-2 px-6 text-white mt-8 max-w-fit'>Submit</button>
           </form>
         </div>
