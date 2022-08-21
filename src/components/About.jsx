@@ -84,7 +84,7 @@ const About = () => {
           my knowledge. When I'm not{" "}
           <span className="text-gray-100">striking a balance</span> between
           functionality and aesthetic design or writing technical articles, you
-          can find me catching up on my favorite movies.
+          can find me catching up on my favorite sit-coms.
         </p>
 
         <p ref={addToRefs} className="mt-12 rounded-lg inline-block ">

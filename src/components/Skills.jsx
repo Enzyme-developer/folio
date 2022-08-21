@@ -56,7 +56,7 @@ const Skills = () => {
     <div className='p-4 w-full mt-8'  ref={addToRefs}>
         <h1 className='mt-4 text-white text-4xl mb-12'>Technical skills</h1>
 
-        <div className='text-white flex flex-wrap w-full gap-8'>
+        <div className='text-white grid grid-cols-3 md:grid-cols-6 w-full gap-8'>
           {/* <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />React Js</p>
           <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Next Js</p>
           <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Javascript</p>
@@ -170,8 +170,13 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col justify-center space-y-6'>
-        <img width='40' height='40' src='https://avatars.githubusercontent.com/u/17177659?s=280&v=4' />
+        <img width='40' height='40' src='https://avatars.githubusercontent.com/u/17177659?s=280&v=4' alt='sanity' />
         <p className='text-gray-200 uppercase'>Sanity</p>
+        </div>
+
+        <div>  
+        <img width='40' height='40' alt='wordpress' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNkFUsY46VroGQ-NPzLAkgfkR5rYYXXooZZ3qfre1TkuBfPAvwR6DhXXg--51noumfeD4&usqp=CAU' />
+        <p className='text-gray-200 uppercase'>Wordpress</p>
         </div>
 
       </div>
