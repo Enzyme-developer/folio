@@ -50,7 +50,7 @@ const About = () => {
 
   return (
     // ref={headerRef}
-    <div id="about" className="overflow-hidden mt-16 p-4 w-full">
+    <div id="about" className="overflow-hidden mt-20 p-4 w-full">
       <div>
         <p ref={addToRefs} className="text-gray-400 text-2xl w-full">
           <span className="text-gray-100">
@@ -60,8 +60,8 @@ const About = () => {
           problems. I'm also excited about the possibility of creating new tools
           to help people work more efficiently by tranforming designs and ideas,{" "}
           <span className="text-gray-100">pixel perfectly</span>, to code. I
-          translate needs into functional and appealing interactive
-          applications. While other people dabble in real estate, I have dabbled
+          constantly seeks out innovative solutions to everyday problems. {" "}
+          While other people dabble in real estate, I have dabbled
           into quite a number of technologies (including Blockchain) among which
           I have acquired proficiency in a handful of them. I work with{" "}
           <span className="text-gray-100">
