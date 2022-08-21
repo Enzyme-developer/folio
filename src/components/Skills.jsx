@@ -174,7 +174,7 @@ const Skills = () => {
         <p className='text-gray-200 uppercase'>Sanity</p>
         </div>
 
-        <div>  
+        <div className='flex flex-col justify-center space-y-6'>  
         <img width='40' height='40' alt='wordpress' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNkFUsY46VroGQ-NPzLAkgfkR5rYYXXooZZ3qfre1TkuBfPAvwR6DhXXg--51noumfeD4&usqp=CAU' />
         <p className='text-gray-200 uppercase'>Wordpress</p>
         </div>
