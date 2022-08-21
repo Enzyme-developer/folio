@@ -50,7 +50,7 @@ const About = () => {
 
   return (
     // ref={headerRef}
-    <div id="about" className="overflow-hidden mt-20 p-4 w-full">
+    <div id="about" className="overflow-hidden mt-16 p-4 w-full">
       <div>
         <p ref={addToRefs} className="text-gray-400 text-2xl w-full">
           <span className="text-gray-100">
