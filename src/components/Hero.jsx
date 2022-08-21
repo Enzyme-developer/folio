@@ -59,7 +59,7 @@ const Hero = () => {
   return (
       <div id='hero' ref={addToRefs} className='z-1 p-4 w-[100vw] mt-20 overflow-hidden'>
           <div>
-              <h1 className='md:text-8xl text-6xl overflow-hidden text-white'>Talabi Ayomide — Frontend Engineer, Blockchain developer & Technical writer.</h1>
+              <h1 className='md:text-8xl text-6xl overflow-hidden text-white'>Talabi Ayomide — Frontend Engineer & Technical writer.</h1>
           </div>
          
           <div className='space-x-12 flex mt-14'>
@@ -69,7 +69,7 @@ const Hero = () => {
               <a href='https://dev.to/ayo_dev'><FaDev className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
               <a href='mailto:talabiayomide2000@gmail.com'><MdEmail className='text-gray-400 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
           </div>
-    </div>
+      </div>
   )
 }
 

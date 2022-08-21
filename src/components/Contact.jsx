@@ -30,7 +30,7 @@ const Contact = () => {
       gsap.fromTo(el,{
         autoAlpha: 0,
         opacity: 0,
-        x: -200,
+        x: -300,
       }, {
         duration: 0.5, 
         delay: 1,

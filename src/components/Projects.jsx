@@ -1,38 +1,36 @@
-import React from 'react'
-import Project from './Project'
+import React from "react";
+import Project from "./Project";
 
 const Projects = () => {
   return (
-
-    <div id='projects' className='px-4 mt-20'>
-    <h1 className='text-white text-4xl mb-6'>Selected Projects</h1>
-    <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mx-auto'>
-        
-        <Project title='Moovie'
-         description= 'A movie web application that provides different movies from various genres, detailed information about each movie and also plays their trailer. It is fully authenticated and users can sign in with their google accounts.' 
-              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpKTh2Z8M7FqHhutA5cIcbKJMHgCDePeu5KA&usqp=CAU' 
-              stack='Built with Next.js, NextAuth, Tailwind Css'
-         link='https://moovie-green.vercel.app' 
-         github='https://github.com/Enzyme-developer/moovie' 
+    <div id="projects" className="p-4">
+      <h1 className="text-white text-4xl my-16">Selected Projects</h1>
+      <div className="grid gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mx-auto items-center justify-center">
+        <Project
+          title="SneakieMart"
+          stack="Built with Next.js, Firebase, Sanity.io"
+          description="E-commerce software that makes buying products, saving to list and paying for them as easy as it can be."
+          link="https://sneakiemart-ayo-dev.vercel.app"
+          github="https://github.com/Enzyme-developer/sneakie"
         />
 
-        <Project title='Cryptoverse'
-         description= 'A web application for the crypto market, detailed information about each coin. Users can add coins to their watchlist. Fully authenticated and users can sign in and sign up with their email accounts.' 
-              src='https://i.pinimg.com/originals/2b/f2/04/2bf204e3797e17128a1264b2b372aea3.jpg' 
-              stack='Built with React.js , Typescript, Firebase, Tailwind Css'
-         link='https://cryptoverse-app-ayo-dev.vercel.app' 
-         github='https://github.com/Enzyme-developer/cryptoverse' 
+        <Project
+          title="Cryptoverse"
+          stack="Built with React.js, Firebase, Tailwind Css"
+          description=" Crypto market data aggregator. Check market data, news and save coins directly to your Cryptocurrency List."
+          link="https://cryptoverse-app-ayo-dev.vercel.app"
+          github="https://github.com/Enzyme-developer/cryptoverse"
         />
 
-       <Project title='Sneakie (WIP)'
-         description= 'An ecommerce application for users to view, buy, pay and checkout their orders, get detailed information about each product. Merrchants can easily update their store using the sanit CMS. It enables users to sign in and sign up.'
-          src='https://buildfire.com/wp-content/uploads/2019/12/Ecommerce-mobile-app-scaled-1200x900.png' 
-          stack='Built with Next.js, Sanity, Firebase, CSS'
-          link='https://sneakie.vercel.app' 
-          github='https://github.com/Enzyme-developer/sneakie'
+        <Project
+          title="Moovie"
+          description="Enjoy trailers, info and ratings that capture the magic of cinema in an ever-changing digital world."
+          stack="Built with Next.js, NextAuth, Tailwind Css"
+          link="https://moovie-green.vercel.app"
+          github="https://github.com/Enzyme-developer/moovie"
         />
-       
-       <Project title='Realtor'
+
+        {/* <Project title='Realtor'
          description= 'This is a real estate web application that displays properties for sale and rent: their full features,price etc.It also has a search functionality'
               src='https://www.mobindustry.net/wp-content/uploads/real_estate_app_-_summary_4x.jpg' 
               stack='Built with Next.js, Chakra UI, Rapid API'
@@ -54,11 +52,10 @@ const Projects = () => {
               stack='Built with React.js, React Context, API, Tailwind Css'
          link='http://google-ten-eta.vercel.app' 
          github='https://github.com/Enzyme-developer/google-repo' 
-        />
-
+        /> */}
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

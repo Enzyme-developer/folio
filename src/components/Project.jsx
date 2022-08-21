@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { FaGithub } from 'react-icons/fa'
-import { BiLinkAlt } from 'react-icons/bi'
+import { FiExternalLink } from 'react-icons/fi'
 import { gsap } from "gsap";
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -56,22 +56,19 @@ const Project = ({ title , description, link, src, github, stack }) => {
 
 
     return (
-      <div className='flex flex-col min-h-[600px] py-4' ref={addToRefs}>
-        <h1 className='text-white text-3xl font-bold text-left py-4'>{title}</h1>
-
-        <div>
+      <div className='flex flex-col p-4 bg-gray-900' ref={addToRefs}>
+        <h1 className='text-white text-3xl font-bold text-left py-1'>{title}</h1>
+        <p className='text-gray-300 text-xl py-2'>{description}</p>
+        <p className='text-gray-300 text-xl py-2'>{stack}</p>
+        <div className='flex justify-between items-center py-2'>
           <div>
-              <img src={src} alt='project' className='w-full min-h-[230px] max-h-[230px] py-4 rounded-lg' />
-              <p className='text-gray-300 text-xl py-6'>{description}</p>
-              <p className='text-gray-300 text-xl py-6'>{stack}</p>
-              <div className='flex space-x-6 py-6'>
-                  <a className='text-gray-300 text-xl flex hover:text-blue-400' href={link}>Live <BiLinkAlt className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
-                  <a className='text-gray-300 text-xl flex hover:text-blue-400' href={github}>Github <FaGithub className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400 ml-4' /></a>
-              </div>
+            <a className='text-gray-300 text-xl flex hover:text-blue-400' href={link}><FiExternalLink className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
+          </div>
+          <div>
+            <a className='text-gray-300 text-xl flex hover:text-blue-400' href={github}><FaGithub className='text-gray-100 cursor-pointer w-6 h-6 hover:text-blue-400' /></a>
           </div>
         </div>
-        
-    </div>
+      </div>
   )
 }
 

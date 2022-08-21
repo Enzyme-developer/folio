@@ -17,7 +17,7 @@ const Articles = () => {
 
   
   return (
-      <div id='articles' className='p-4 mt-16'>
+      <div id='articles' className='p-4 my-20'>
         <h1 className='text-white text-4xl mb-8'>Selected Articles</h1>
         <Article articles={articles} />
     </div>
