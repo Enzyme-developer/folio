@@ -90,7 +90,7 @@ const About = () => {
         <p ref={addToRefs} className="mt-12 rounded-lg inline-block ">
           <a
             className="text-white p-2 mt-10 rounded text-xl font-bold border-2 border-white"
-            href="https://drive.google.com/file/d/1Yq4Ede1dBpif4_u3hStkVFHRulKkKc4g/view?usp=sharing"
+            href="https://docs.google.com/document/d/1qvspgU33Xz0SQdrAJxsvNPjBnlrEv-6ltpY0VlOI_5o/edit?usp=sharing"
           >
             My Resume
           </a>

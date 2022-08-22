@@ -54,19 +54,8 @@ const Skills = () => {
 
     return (
     <div className='p-4 w-full mt-8'  ref={addToRefs}>
-        <h1 className='mt-4 text-white text-4xl mb-12'>Technical skills</h1>
-
-        <div className='text-white grid grid-cols-3 md:grid-cols-6 w-full gap-8'>
-          {/* <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />React Js</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Next Js</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Javascript</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Typescript</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Redux</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Firebase</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Tailwind Css</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Chakra UI</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Material UI</p>
-          <p className='flex text-2xl'><BsFillPlayFill className='w-6 h-6 text-white' />Jest</p> */}
+      <h1 className='mt-4 text-white text-4xl mb-12'>Technical skills</h1>
+      <div className='text-white grid grid-cols-3 md:grid-cols-6 w-full gap-8'>
 
         <div className='flex flex-col justify-center space-y-6'>
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" />

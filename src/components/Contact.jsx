@@ -5,7 +5,6 @@ import { FaGithub } from 'react-icons/fa'
 import { FaDev } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import Ayo from '../assets/Ayo.jpg'
-
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
@@ -61,17 +60,6 @@ const Contact = () => {
   return (
       <div id='contact' ref={addToRefs} className='my-16 p-4'>
       <h1 className='text-white text-6xl mb-6'>Contact Me</h1>
-      <div clasName='flex'>
-
-
-      
-
-
-      </div>
-
-
-
-
       <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-20 flex-wrap'>
 
         <div className='flex flex-col w-full'>
