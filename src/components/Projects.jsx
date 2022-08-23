@@ -4,8 +4,8 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div id="projects" className="p-4 mt-8">
-      <h1 className="text-white text-4xl my-16">Selected Projects</h1>
-      <div className="grid gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mx-auto items-center">
+      <h1 className="text-white text-center text-4xl my-16">Selected Projects</h1>
+      <div className="flex gap-20 flex-wrap justify-center items-center">
         <Project
           title="SneakieMart"
           stack="Built with Next.js, Firebase, Sanity.io"

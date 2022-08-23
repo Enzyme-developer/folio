@@ -53,9 +53,9 @@ const Article = ( {articles} ) => {
 
 
     return (
-    <div ref={addToRefs} className='grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full m-auto shadow-2xl' >
+    <div ref={addToRefs} className='flex gap-20 w-full flex-wrap items-center justify-center shadow-2xl' >
         {articles.map(( { title, description, url}) => (
-        <div className='flex flex-col p-4 bg-gray-900' ref={addToRefs}>
+        <div className='flex flex-col w-[350px] p-4 bg-gray-900' ref={addToRefs}>
           <h1 className='text-white text-3xl font-bold text-left py-1'>{title.slice(0,35)} ...</h1>
           <p className='text-gray-300 text-xl py-2'>{description}</p>
           <div className='flex justify-between items-center py-2'>
