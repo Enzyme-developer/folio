@@ -55,7 +55,7 @@ const Project = ({ title , description, link, src, github, stack }) => {
 
 
     return (
-      <div className='flex flex-col bg-gray-900 p-4 md:w-[400px] w-full' ref={addToRefs}>
+      <div className='flex flex-col bg-gray-900 p-4 md:w-[360px] w-full' ref={addToRefs}>
         <h1 className='text-white text-3xl font-bold'>{title}</h1>
         <p className='text-gray-300 text-xl py-2'>{description}</p>
         <p className='text-gray-300 text-xl py-2'>{stack}</p>
